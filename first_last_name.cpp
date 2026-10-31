@@ -1,3 +1,9 @@
+/*2. First and Last in the Alphabet — array of structures + comparing strings + function
+Declare a structure Student with members string name and int score. Read n (1 to 50) and an
+array of n students (names without spaces).
+In one loop find the student whose name is the first in the alphabet and the student whose
+name is the last (strings are compared with < and >). Write a function void printStudent(const
+Student& s) and use it to print both students in the form "name (score)".*/
 #include <iostream>
 using namespace std;
 struct Student{
